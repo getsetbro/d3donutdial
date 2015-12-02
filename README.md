@@ -21,4 +21,4 @@ colors: the colors it will use for fill
 
 text: the text below the percentage in the middle of the donut
 
-[DEMO](//getsetbro.com/d3donutdial)
+[DEMO](http://getsetbro.com/d3donutdial)
