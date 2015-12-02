@@ -20,3 +20,5 @@ element: the div you want it injected in to; class or ID
 colors: the colors it will use for fill
 
 text: the text below the percentage in the middle of the donut
+
+[DEMO](//getsetbro.com/d3donutdial)
