@@ -5,7 +5,7 @@ With this script you can create a responsive SVG donut to display a percentage
 
     createPieDonuts({
         percent: 50,
-        size: 155,
+        size: 155, //size is relative
         element: "#a3",
         colors: ["gold", "#fff"],
         text: "People"
