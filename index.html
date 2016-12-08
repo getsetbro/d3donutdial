@@ -26,7 +26,6 @@ header, footer{
 <body>
   <header>...</header>
 <div class="contr">
-
   <div class="row">
     <div class="col-xs-4">
       <div id="a1"></div>
@@ -41,7 +40,35 @@ header, footer{
       <center>2 of 4<br>corrent answers</center>
     </div>
   </div>
-</div>
+  <div class="row">
+    <div class="col-xs-4">
+      <div id="b1"></div>
+      <center>1 of 4<br>correct answers</center>
+    </div><!-- inline-block spacer
+ --><div class="col-xs-4">
+      <div id="b2"></div>
+      <center>3 of 4<br>correct answers</center>
+    </div><!-- inline-block spacer
+ --><div class="col-xs-4">
+      <div id="b3"></div>
+      <center>2 of 4<br>corrent answers</center>
+    </div>
+  </div>
+    <div class="row">
+    <div class="col-xs-4">
+      <div id="c1"></div>
+      <center>1 of 4<br>correct answers</center>
+    </div><!-- inline-block spacer
+ --><div class="col-xs-4">
+      <div id="c2"></div>
+      <center>3 of 4<br>correct answers</center>
+    </div><!-- inline-block spacer
+ --><div class="col-xs-4">
+      <div id="c3"></div>
+      <center>2 of 4<br>corrent answers</center>
+    </div>
+  </div>
+  </div>
 <footer>&copy;</footer>
 <script src="//d3js.org/d3.v3.min.js"></script>
 <script type="text/javascript">
@@ -90,6 +117,14 @@ svg.append("text")
 createPieDonuts({percent:25,size:155,element:"#a1",colors:["orange","#fff"],text:"Text"});
 createPieDonuts({percent:75,size:155,element:"#a2",colors:["orangered","pink"],text:"People"});
 createPieDonuts({percent:50,size:155,element:"#a3",colors:["gold","#fff"],text:"People"});
+
+createPieDonuts({percent:35,size:155,element:"#b1",colors:["orange","#fff"],text:"Text"});
+createPieDonuts({percent:85,size:155,element:"#b2",colors:["orangered","pink"],text:"People"});
+createPieDonuts({percent:60,size:155,element:"#b3",colors:["gold","#fff"],text:"People"});
+
+createPieDonuts({percent:15,size:155,element:"#c1",colors:["orange","#fff"],text:"Text"});
+createPieDonuts({percent:65,size:155,element:"#c2",colors:["orangered","pink"],text:"People"});
+createPieDonuts({percent:40,size:155,element:"#c3",colors:["gold","#fff"],text:"People"});
 
 </script>
 </body>
